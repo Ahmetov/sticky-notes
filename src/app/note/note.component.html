@@ -1,0 +1,13 @@
+<style>
+  .note-block {
+    background: azure;
+    height: 200px;
+    width: 200px;
+  }
+</style>
+
+<div class="note-block" [style.background]="note.noteColor">
+  <p>Number: {{note.noteId}}</p>
+  <p>Title: <b>{{note.noteTitle}}</b></p>
+  <p>Text: {{note.noteText}}</p>
+</div>
